@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# But don't ignore the scraped_content directory
+!scraped_content/
+
+# Don't ignore .gitignore and README.md
+!.gitignore
+!README.md
+
+# Ignore node_modules, even in scraped_content
+scraped_content/node_modules/
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore .env files which might contain sensitive information
+.env
